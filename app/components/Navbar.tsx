@@ -22,7 +22,7 @@ const Navbar = () => {
           <div className={
             menuOpen
             ? "fixed left-0 top-0 w-[65%] sm:hidden h-screen bg-amber-50 ease-in duration-500"
-            : "fixed left-full h-screen top-0 ease-in duration-500"
+            : "fixed left-[-100%] h-screen top-0 ease-in duration-500"
             }>
             <div className="flex w-full items-center justify-end pr-10 pt-10">
               <div onClick={handleNav} className="sm:hidden cursor-pointer">
