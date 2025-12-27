@@ -64,13 +64,13 @@ const Navbar = () => {
               </ul>
             </div>
             <div className="flex flex-row justify-around pt-5 items-center pl-15 pr-15">
-              <Link href="/">
+              <Link href="https://www.google.com" target="_blank" rel="noopener noreferrer">
                 <AiOutlineInstagram size={(35)} className="cursor-pointer"/>
               </Link>
-              <Link href="/">
+              <Link href="/" target="_blank" rel="noopener noreferrer">
                 <AiOutlineFacebook size={(35)} className="cursor-pointer"/>
               </Link>
-              <Link href="/">
+              <Link href="/" target="_blank" rel="noopener noreferrer">
                 <AiOutlineYoutube size={(35)} className="cursor-pointer"/>
               </Link>
             </div>
