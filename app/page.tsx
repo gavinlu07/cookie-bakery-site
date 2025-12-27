@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline h-1000">
+    <h1 className="text-3xl font-bold underline h-500">
       Hello world
     </h1>
   );
