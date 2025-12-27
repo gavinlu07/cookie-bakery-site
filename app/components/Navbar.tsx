@@ -13,7 +13,7 @@ const Navbar = () => {
   }
   
   return (
-    <nav className="fixed w-full h-24 shadow-xl bg-white">
+    <nav className="w-full h-24 shadow-xl ">
       <div className="flex justify-center items-center h-full px-4 2xl:px-16">
         <div className="flex flex-1">
           <div onClick={handleNav} className="sm:hidden cursor-pointer pl-5 pr-5">
@@ -21,8 +21,8 @@ const Navbar = () => {
           </div>
           <div className={
             menuOpen
-            ? "fixed left-0 top-0 top-0 w-[65%] sm:hidden h-screen bg-amber-50 ease-in duration-500"
-            : "fixed left-[-100%] h-screen top-0 ease-in duration-500"
+            ? "fixed left-0 top-0 w-[65%] sm:hidden h-screen bg-amber-50 ease-in duration-500"
+            : "fixed left-full h-screen top-0 ease-in duration-500"
             }>
             <div className="flex w-full items-center justify-end pr-10 pt-10">
               <div onClick={handleNav} className="sm:hidden cursor-pointer">
