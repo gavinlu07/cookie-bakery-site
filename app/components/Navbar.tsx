@@ -13,7 +13,7 @@ const Navbar = () => {
   }
   
   return (
-    <nav className="w-full h-24 shadow-xl ">
+    <nav className="absolute top-0 left-0 z-50 bg-transparent w-full h-24 ">
       <div className="flex justify-center items-center h-full px-4 2xl:px-16">
         <div className="flex flex-1">
           <div onClick={handleNav} className="sm:hidden cursor-pointer pl-5 pr-5">
@@ -21,15 +21,15 @@ const Navbar = () => {
           </div>
           <div className={
             menuOpen
-            ? "fixed left-0 top-0 w-[65%] sm:hidden h-screen bg-amber-50 ease-in duration-500"
+            ? "fixed left-0 top-0 rounded-r-lg w-[65%] sm:hidden h-screen bg-amber-50 ease-in duration-500"
             : "fixed left-[-100%] h-screen top-0 ease-in duration-500"
             }>
-            <div className="flex w-full items-center justify-end pr-10 pt-10">
-              <div onClick={handleNav} className="sm:hidden cursor-pointer">
+            <div className="flex w-full items-center justify-end">
+              <div onClick={handleNav} className="sm:hidden cursor-pointer pt-10 pr-10 pl-10 pb-5">
                 <AiOutlineClose size={30}/>
               </div>
             </div>
-            <div className="flex w-full items-center justify-center pt-5">
+            <div className="flex w-full items-center justify-center">
               <Image
                 src="/bakery-logo-template.svg"
                 alt="Logo"
