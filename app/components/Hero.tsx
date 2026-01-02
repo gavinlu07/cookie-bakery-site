@@ -24,7 +24,7 @@ const Hero = () => {
     <section className='pt-24 pb-5 bg-amber-50'>
         <div className="flex flex-col justify-center items-center text-center lg:flex-row">            
             <div className="justify-center items-center text-center pt-5 lg:pt-0 ml-20 mr-20 lg:ml-10 lg:mr-20 lg:max-w-125 lg:text-left md:max-w-150"> 
-                <h1 className={`${caveatBrush.className} text-6xl md:text-7xl lg:text-8xl`}>Try Canberra's newest cookies</h1>
+                <h1 className={`${caveatBrush.className} text-6xl md:text-7xl lg:text-8xl text-black`}>Try Canberra's newest cookies</h1>
                 
                 <button type="button" 
                 title="order now" 
