@@ -42,22 +42,22 @@ const Navbar = () => {
             <div className="flex-col py-4">
               <ul>
                 <Link href="/">
-                  <li onClick={() => setMenuOpen(false)} className="py-3 p-15 cursor-pointer hover:bg-amber-100 text-black text-2xl">
+                  <li onClick={() => setMenuOpen(false)} className="py-4 p-15 cursor-pointer hover:bg-amber-100 text-black text-2xl">
                     Order
                   </li>
                 </Link>
                 <Link href="/">
-                  <li onClick={() => setMenuOpen(false)} className="py-3 p-15 cursor-pointer hover:bg-amber-100 text-black text-2xl">
+                  <li onClick={() => setMenuOpen(false)} className="py-4 p-15 cursor-pointer hover:bg-amber-100 text-black text-2xl">
                     Location
                   </li>
                 </Link>
                                 <Link href="/">
-                  <li onClick={() => setMenuOpen(false)} className="py-3 p-15 cursor-pointer hover:bg-amber-100 text-black text-2xl">
+                  <li onClick={() => setMenuOpen(false)} className="py-4 p-15 cursor-pointer hover:bg-amber-100 text-black text-2xl">
                     Our Story
                   </li>
                 </Link>
                 <Link href="/">
-                  <li onClick={() => setMenuOpen(false)} className="py-3 p-15 cursor-pointer hover:bg-amber-100 text-black text-2xl">
+                  <li onClick={() => setMenuOpen(false)} className="py-4 p-15 cursor-pointer hover:bg-amber-100 text-black text-2xl">
                     Contact Us
                   </li>
                 </Link>
