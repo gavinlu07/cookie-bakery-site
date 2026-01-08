@@ -20,7 +20,7 @@ const caveatBrush = Caveat_Brush({
 
 const Order = () => {
   return (
-    <section className='border-2 border-green-500 bg-fuchsia-700 '>
+    <section className='bg-fuchsia-700 '>
       <div className='flex justify-center items-center'>
         <p className={`${changaOne.className} text-4xl md:text-5xl lg:text-5xl text-white pt-10`}>Build Your Box</p>
       </div>

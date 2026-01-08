@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="flex justify-center items-center h-full px-4 2xl:px-16">
         <div className="flex flex-1">
           <div onClick={handleNav} className="sm:hidden cursor-pointer pl-5 pr-5">
-            <AiOutlineMenu size={30}/>
+            <AiOutlineMenu size={30} color="black"/>
           </div>
           <div className={
             menuOpen
@@ -26,7 +26,7 @@ const Navbar = () => {
             }>
             <div className="flex w-full items-center justify-end">
               <div onClick={handleNav} className="sm:hidden cursor-pointer pt-10 pr-10 pl-10 pb-5">
-                <AiOutlineClose size={30}/>
+                <AiOutlineClose size={30} color="black"/>
               </div>
             </div>
             <div className="flex w-full items-center justify-center">
@@ -42,22 +42,22 @@ const Navbar = () => {
             <div className="flex-col py-4">
               <ul>
                 <Link href="/">
-                  <li onClick={() => setMenuOpen(false)} className="py-4 p-15 cursor-pointer hover:bg-amber-100">
+                  <li onClick={() => setMenuOpen(false)} className="py-3 p-15 cursor-pointer hover:bg-amber-100 text-black text-2xl">
                     Order
                   </li>
                 </Link>
                 <Link href="/">
-                  <li onClick={() => setMenuOpen(false)} className="py-4 p-15 cursor-pointer hover:bg-amber-100">
+                  <li onClick={() => setMenuOpen(false)} className="py-3 p-15 cursor-pointer hover:bg-amber-100 text-black text-2xl">
                     Location
                   </li>
                 </Link>
                                 <Link href="/">
-                  <li onClick={() => setMenuOpen(false)} className="py-4 p-15 cursor-pointer hover:bg-amber-100">
+                  <li onClick={() => setMenuOpen(false)} className="py-3 p-15 cursor-pointer hover:bg-amber-100 text-black text-2xl">
                     Our Story
                   </li>
                 </Link>
                 <Link href="/">
-                  <li onClick={() => setMenuOpen(false)} className="py-4 p-15 cursor-pointer hover:bg-amber-100">
+                  <li onClick={() => setMenuOpen(false)} className="py-3 p-15 cursor-pointer hover:bg-amber-100 text-black text-2xl">
                     Contact Us
                   </li>
                 </Link>
