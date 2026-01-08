@@ -26,7 +26,7 @@ const Order = () => {
       </div>
       <div className='flex flex-col md:flex-row items-center justify-center sm:gap-20 gap-0 lg:pt-5 pr-5 pl-5 sm:pb-5'>
         
-        <div className='pt-5 pb-2.5 sm:pb-5 sm:pt-0 sm:pb-0'>
+        <div className='pt-5 pb-2.5 sm:pb-5 sm:pt-0'>
           <Link href="/">
               <div className='border-0 hover:bg-[#CB2985] rounded-2xl cursor-pointer w-max p-2.5'>
                 <div className='flex items-center justify-center'>
